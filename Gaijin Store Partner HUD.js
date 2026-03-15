@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gaijin Store Partner HUD
 // @namespace    http://tampermonkey.net/
-// @version      4.0
+// @version      1.0
 // @description  WTPB Reminder HUD.
 // @author       SempiternalSloth
 // @match        https://store.gaijin.net/*
