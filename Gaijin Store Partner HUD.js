@@ -1,11 +1,15 @@
 // ==UserScript==
 // @name         Gaijin Store Partner HUD
 // @namespace    https://github.com/SempiternalSloth/WTcc-code-reminder
-// @version      1.0
+// @version      1.1
 // @description  WTPB Reminder HUD.
 // @author       SempiternalSloth
 // @match        https://store.gaijin.net/*
 // @grant        none
+// @license      MIT
+// @icon         https://raw.githubusercontent.com/SempiternalSloth/WTcc-code-reminder/refs/heads/main/gaijinreminderwtpb.ico
+// @homepage     https://github.com/SempiternalSloth/WTcc-code-reminder
+// @supportURL   https://github.com/SempiternalSloth/WTcc-code-reminder/issues
 // ==/UserScript==
 
 (function() {
