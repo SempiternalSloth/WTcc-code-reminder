@@ -7,4 +7,4 @@ It displays a banner when not using a code while checking out items on the war t
 [Greasyfork Link](https://greasyfork.org/en/scripts/569801-gaijin-store-partner-hud)
 
 
-The zip just utilizes the same .js but is compatible in usage in extensions (as unpacked)
+The [zip](https://github.com/SempiternalSloth/WTcc-code-reminder/blob/main/Gaijin%20Store%20Partner%20HUD.zip) just utilizes the same .js but is compatible in usage in extensions (as unpacked)
