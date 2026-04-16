@@ -1,7 +1,22 @@
-[Extension Page Guide](https://sempiternalsloth.github.io/WTcc-code-reminder/)
+# Gaijin Store Partner HUD
 
-[Greasyfork Link](https://greasyfork.org/en/scripts/569801-gaijin-store-partner-hud)
+A lightweight script designed to ensure you never forget to use creator codes. When checking out on the **War Thunder Store**, this script displays a reminder banner if no partner code is currently active.
 
-A small script intended for usage with a userscript extension, displaying a banner when not using a code while checking out items on the war thunder store ([store.gaijin.net](https://store.gaijin.net/)) directing users to the website [wtpb.net](https://wtpb.net/) to obtain codes
+[**Site Page/Extension Page**](https://sempiternalsloth.github.io/WTcc-code-reminder/)
 
-The [.zip](https://github.com/SempiternalSloth/WTcc-code-reminder/blob/main/Gaijin%20Store%20Partner%20HUD.zip) simply utilizes the same .js but is compatible in usage in extensions (as unpacked)
+---
+
+## Installation
+
+### As a Userscript
+1. Install a userscript manager like **Tampermonkey** or **Violentmonkey**.
+2. Click the [Greasyfork Link](https://greasyfork.org/en/scripts/569801-gaijin-store-partner-hud) and hit **Install**.
+
+### As a Browser Extension
+1. Download the [latest .zip release](https://github.com/SempiternalSloth/WTcc-code-reminder/blob/main/Gaijin%20Store%20Partner%20HUD.zip).
+2. Unpack the files to a folder.
+3. Go to `chrome://extensions`, enable **Developer Mode**, and click **Load Unpacked**.
+
+---
+
+Credit goes to [wtpb.net](https://wtpb.net/) for their aggregration of creator codes
