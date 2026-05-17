@@ -19,4 +19,6 @@ A lightweight script designed to ensure you never forget to use creator codes. W
 
 ---
 
-Credit goes to [wtpb.net](https://wtpb.net/) for their aggregation of creator codes
+Credit goes to [wtpb.net](https://wtpb.net/) for their aggregation of creator codes.
+
+[War Thunder Store Link](https://store.gaijin.net/storefront.php?category=WarThunder)
