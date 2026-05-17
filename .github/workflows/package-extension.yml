@@ -18,10 +18,10 @@ jobs:
         uses: thewebimp/chrome-extension-packager@v2
         with: '.' 
         extension_dir: '.' 
-        zip_name: 'my-chrome-extension.zip'
+        zip_name: 'Gaijin Store Partner HUD.zip'
 
       - name: Upload Zip
         uses: actions/upload-artifact@v4
         with:
-          name: Gaijin%20Store%20Partner%20HUD.zip
-          path: Gaijin%20Store%20Partner%20HUD.zip
+          name: chrome-extension
+          path: Gaijin Store Partner HUD.zip
