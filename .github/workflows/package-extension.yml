@@ -12,10 +12,10 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+
       - name: Extract Version from JS
         id: get_version
         run: |
-          # @version pull
           VERSION=$(grep "@version" "Gaijin Store Partner HUD.js" | awk '{print $3}' | tr -d '\r\n')
           
           if [ -z "$VERSION" ]; then
@@ -26,7 +26,7 @@ jobs:
           echo "Extracted Version: $VERSION"
           echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
 
-
+# MANIFEST SETTINGS
       - name: Create manifest.json
         run: |
           VERSION="${{ steps.get_version.outputs.VERSION }}"
@@ -51,14 +51,14 @@ jobs:
             }
           }
           EOF
-          
+
       - name: Zip extension assets
         run: |
-          zip -r "Gaijin-Store-Partner-HUD.zip" "manifest.json" "Gaijin Store Partner HUD.js" "gaijinreminderwtpb.png"
+          zip -r "./Gaijin-Store-Partner-HUD.zip" "manifest.json" "Gaijin Store Partner HUD.js" "gaijinreminderwtpb.png"
 
 
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: extension-package
-          path: Gaijin-Store-Partner-HUD.zip
+          name: Gaijin-Store-Partner-HUD
+          path: ./Gaijin-Store-Partner-HUD.zip
