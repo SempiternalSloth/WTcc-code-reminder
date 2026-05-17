@@ -13,7 +13,7 @@ A lightweight script designed to ensure you never forget to use creator codes. W
 2. Click the [Greasyfork Link](https://greasyfork.org/en/scripts/569801-gaijin-store-partner-hud) and hit **Install**.
 
 ### As a Browser Extension
-1. Download the [.zip release](https://github.com/SempiternalSloth/WTcc-code-reminder/blob/main/Gaijin%20Store%20Partner%20HUD.zip).
+1. Download the [.zip release](https://github.com/SempiternalSloth/WTcc-code-reminder/blob/main/Gaijin-Store-Partner-HUD.zip).
 2. Unpack the files to a folder.
 3. Go to `chrome://extensions`, enable **Developer Mode**, and click **Load Unpacked**.
 
