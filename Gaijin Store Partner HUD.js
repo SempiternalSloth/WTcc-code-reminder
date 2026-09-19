@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gaijin Store Partner HUD
 // @namespace    https://github.com/SempiternalSloth/WTcc-code-reminder
-// @version      1.2
+// @version      1.3
 // @description  WTPB Reminder HUD.
 // @author       SempiternalSloth
 // @match        https://store.gaijin.net/*
@@ -20,6 +20,13 @@
         CACHE_KEY: 'gaijin_partner_data',
         CACHE_TTL: 3600000,
         SUPPORT_SELECTOR: '.shop-support-info, .purchase-support, body'
+    };
+
+    //Buy PopUp Recognition
+    const BUY_POPUP_PARAM_KEY = 'ppupPurchaseItemId';
+
+    const isBuyPopupUrl = (params) => {
+        return params.has(BUY_POPUP_PARAM_KEY);
     };
 
     const THEME = {
@@ -172,7 +179,7 @@
         clearTimeout(timer);
         timer = setTimeout(() => {
             const params = new URLSearchParams(window.location.search);
-            state.isBuyPopup = params.get('popupId') === 'buy-popup';
+            state.isBuyPopup = isBuyPopupUrl(params);
             state.isProductPage = window.location.pathname.includes('story.php');
             state.partnerName = getPartner(force || state.isBuyPopup);
             render();
